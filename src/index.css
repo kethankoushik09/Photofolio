@@ -11,3 +11,306 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Nav-container{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(152, 160, 241);
+  padding-top: 15px;
+}
+.Nav-container h2{
+  display: inline-block;
+  margin: 0;
+} 
+.Nav-container i{
+ font-size: 40px;
+ margin-left: 15px;
+}
+.album-container{
+  width: 80%;
+  margin: auto;
+}
+.album-header{
+  padding-top: 10px;
+  position: relative;
+
+}
+.album-header h1{
+  display: inline-block;
+  margin: 0;
+}
+.album-btn{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left:90%;
+  top:40%;
+}
+.album-add{
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid rgb(6, 129, 230);
+  padding: 5px;
+  background-color: rgb(239, 244, 244);
+  color: rgb(3, 120, 216);
+  border-radius: 5px;
+}
+.album-can{
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid rgb(230, 36, 6);
+  padding: 5px;
+  background-color: rgb(248, 237, 237);
+  color: rgb(214, 29, 29);
+  border-radius: 5px;
+
+}
+.album-section{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+.album-item{
+  height:170px;
+  width:200px;
+  background-color: rgb(237, 237, 237);
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  transition: background-color 0.5s ;
+}
+.album-item:hover{
+  background-color: rgb(65, 145, 241);
+}
+.album-item h2{
+  text-align: center;
+  margin: 0;
+}
+.album-image{
+  width: 95%;
+  height: 70%;
+  margin: auto;
+  background-color: white;
+  margin-top: 5px;
+  border-radius: inherit;
+  text-align: center;
+}
+.image-icon{
+  font-size: 70px;
+
+}
+.album-form{
+  width: 60%;
+  background-color: rgb(245, 245, 245);
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  box-shadow: -1px 1px 10px rgb(185, 184, 184);
+  border-radius: 5px;
+}
+.album-form h1{
+  margin: 0;
+  margin-bottom: 10px;
+}
+.album-input{
+  height:40px;
+  width:60%;
+  border-radius: 20px;
+  font-size: 25px;
+  padding-left: 20px;
+  margin-top: 4px;
+  border: none;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+}
+.album-input:focus{
+  outline: none;
+  border-color:  rgb(58, 100, 217);
+}
+#clear{
+  font-size: 20px;
+  font-weight: bold;
+  height:35px;
+  width: 100px;
+  box-shadow: -0.5px 0.5px 5px black;
+  margin: 10px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+#create{
+  font-size: 20px;
+  font-weight: bold;
+  height:35px;
+  width: 100px;
+  box-shadow: -0.5px 0.5px 5px black;
+  margin: 10px;
+  background-color: rgb(25, 106, 204);
+  border-radius: 5px;
+  color: white;
+  border: none;
+
+}
+.Image-sec{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.Image-header{
+  /* border: 2px solid red; */
+  margin-top: 30px;
+
+}
+.backward-icon {
+  font-size: 40px;
+  display: inline-block;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: -1px 1px 5px rgb(99, 90, 90);
+}
+.images-content{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  /* margin: auto; */
+  margin-left: 25%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /* background-color: antiquewhite; */
+}
+.btn-area{
+  /* display: inline-block; */
+  /* text-align: right; */
+  position: absolute;
+  left: 90%;
+  top:30%;
+}
+.image-add{
+  padding: 5px 10px  5px 10px;
+  border: 2px solid rgb(66, 80, 230);
+  color: rgb(66, 80, 230);
+  background-color: rgb(236, 243, 248);
+  border-radius: 5px;
+
+}
+.image-can{
+  padding: 5px 10px  5px 10px;
+  border: 2px solid rgb(230, 6, 6);
+  color: rgb(217, 8, 8);
+  background-color: rgb(243, 228, 226);
+  border-radius: 5px;
+
+}
+.Image-form{
+  width: 55%;
+  /* height:30px; */
+  /* border: 2px solid red; */
+  margin: auto;
+  padding-left: 10px;
+  background-color: rgb(240, 241, 241);
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: -1px 1px 8px rgb(198, 193, 193);
+
+}
+.Image-form span{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.Image-form input{
+  height: 40px;
+  width: 80%;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  border: 2px solid transparent;
+  margin-top: 5px;
+}
+.Image-form input:focus{
+  outline: none;
+  border: 2px solid rgb(38, 102, 238);
+}
+.btns{
+  text-align: center;
+}
+.Images-section{
+  width: 80%;
+  /* height: 40px; */
+  /* border: 2px solid rgb(230, 10, 10); */
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+}
+.image-item {
+  max-width: 40%;
+  flex: 0 1 190px; /* Prevents growing and ensures a base width of 190px */
+  height: 150px;
+  background-color: rgb(242, 242, 239);
+  margin: 5px;
+  box-shadow: -1px 1px 5px rgb(209, 207, 207);
+  position: relative;
+}
+.image-item span{
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.image-icn{
+  width: 95%;
+  /* background-color: aliceblue; */
+  /* background-image: url("https://cdn-icons-png.flaticon.com/512/552/552871.png"); */
+  /* background-size: cover; */
+  margin: auto;
+  height: 70%;
+  margin-top: 5px;
+}
+.image-icn img{
+  height: 100%;
+  width: 100%;
+}
+
+.Images-section .image-item:nth-child(-n+4) {
+  flex-grow: 1;
+}
+.tolls{
+  position: absolute;
+  /* color: red; */
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  opacity: 0;
+}
+.edit{
+  color: rgb(67, 189, 85);
+  bottom: 3%;
+  right:25%;
+  /* background-color: rgb(0, 148, 223); */
+  padding: 3px;
+  margin-left: 3px;
+  /* border-radius: 40%; */
+  /* opacity: 0; */
+}
+.on_mood{
+  opacity: 1;
+}
+.delete{
+  color: rgb(225, 64, 64);
+  bottom: 5%;
+  right: 10%;
+}
+.tolls:hover{
+  transform: scale(1.5);
+}
