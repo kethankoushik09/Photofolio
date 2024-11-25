@@ -11,9 +11,9 @@
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.6",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://github.com/kethankoushik09/photofolio"
+    "web-vitals": "^2.1.4"
   },
+  "homepage": "https://kethankoushik09.github.io/photofolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
