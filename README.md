@@ -24,3 +24,4 @@ Make sure you have the following installed:
 - [npm](https://npmjs.com/) (v7 or higher)
 
 ## DEMO
+https://kethankoushik09.github.io/photofolio/
